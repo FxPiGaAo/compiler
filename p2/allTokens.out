@@ -1,0 +1,9 @@
+123 1 1
++ 2 1
+x 3 1
+bool 4 1
+int 8 1
+false 9 1
+{ 10 1
+2147483647 11 1
+"include a quote like this \" and a backslash like this \\" 13 1

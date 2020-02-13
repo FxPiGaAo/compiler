@@ -10,6 +10,13 @@
 //
 /////////////////////////////////////////////////////////////////////////////
 
+/*
+P1 is a program to test whether SymTable functions
+in the expected way. If there is no exceptional behavior,
+nothing but a temporary SymTable will be printed. If there
+are any unexpected behavior, related hint information will
+be printed out.
+*/
 public class P1{
     public static void main(String[] args){
         SymTable mytable = new SymTable();
@@ -93,7 +100,7 @@ public class P1{
             System.out.println("Unexpected EmptySymTableException");
         }
 
-        //add one more symbol and test whether LookupGlobal could
+        //add one more scope and test whether LookupGlobal could
         //find the closest one
         try{
             mytable.addDecl("a", new Sym("char"));
